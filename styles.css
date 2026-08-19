@@ -134,6 +134,13 @@ h3 {
   margin-bottom: 8px;
 }
 
+.cv-line {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 .contact-line {
   font-family: Arial, sans-serif;
   font-size: 15px;
