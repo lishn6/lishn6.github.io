@@ -11,83 +11,73 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#top">Shuning Li</a>
-        <div class="nav-links">
-          <a href="#research">Research</a>
-          <a href="#cv">CV</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
-    </header>
+    <main class="site-shell" id="top">
+      <header class="masthead">
+        <nav class="topline" aria-label="Primary navigation">
+          <a class="name-link" href="#top">Shuning Li</a>
+          <div class="top-actions">
+            <a href="#papers">Research</a>
+            <a href="main.pdf">CV</a>
+            <a href="mailto:sli2744@uwo.ca">Email</a>
+          </div>
+        </nav>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Economics Ph.D. Candidate</p>
+        <div class="intro-block">
           <h1>Shuning Li</h1>
-          <p class="subtitle">
+          <p class="affiliation">
+            Ph.D. Candidate in Economics<br>
             Department of Economics, Western University
           </p>
-          <p class="summary">
-            I am a Ph.D. candidate in economics with research interests in
-            labor economics, applied microeconometrics, and family economics.
+          <p class="bio">
+            My research interests are labor economics, applied
+            microeconometrics, and family economics. You can find my
+            <a href="main.pdf">CV here</a>.
           </p>
-          <div class="actions" aria-label="Key materials">
-            <a class="button primary" href="main.pdf">Download CV</a>
-            <a class="button" href="#research">Research</a>
-            <a class="button" href="mailto:sli2744@uwo.ca">Email</a>
-          </div>
+          <p class="contact-line">
+            <a href="mailto:sli2744@uwo.ca">sli2744@uwo.ca</a>
+          </p>
         </div>
+      </header>
 
-        <aside class="profile-panel" aria-label="Profile details">
-          <dl>
-            <div>
-              <dt>Affiliation</dt>
-              <dd>Western University</dd>
-            </div>
-            <div>
-              <dt>Fields</dt>
-              <dd>Labor Economics; Applied Microeconometrics; Family Economics</dd>
-            </div>
-            <div>
-              <dt>Email</dt>
-              <dd><a href="mailto:sli2744@uwo.ca">sli2744@uwo.ca</a></dd>
-            </div>
-          </dl>
-        </aside>
-      </section>
+      <section class="section" id="papers" aria-labelledby="papers-title">
+        <h2 id="papers-title">Working Papers</h2>
 
-      <section id="research" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Research</p>
-          <h2>Working Papers</h2>
-        </div>
-
-        <article class="paper featured">
-          <div class="paper-meta">Featured Working Paper</div>
+        <article class="paper">
           <h3>Marriage Squeeze and Education Choice: Evidence from China's Imbalanced Sex Ratios</h3>
-          <p class="paper-status">Memo, May 2025</p>
-          <p>
-            Presented at the Canadian Economics Association Annual Conference,
-            Vancouver, 2026.
+          <p class="presentations">
+            <span>Presentations:</span> Canadian Economics Association Annual
+            Conference, Vancouver, 2026.
           </p>
+          <div class="paper-links">
+            <details class="abstract-toggle">
+              <summary>Abstract</summary>
+              <p>
+                Abstract coming soon. This project studies marriage-market
+                incentives and education choice using evidence from China's
+                imbalanced sex ratios.
+              </p>
+            </details>
+            <span class="pdf-soon">PDF coming soon</span>
+          </div>
         </article>
 
         <article class="paper">
-          <div class="paper-meta">Working Paper</div>
           <h3>Child Penalties and the Reallocation of Mothers' Career Paths</h3>
+          <p class="presentations muted">Presentations coming soon.</p>
+          <div class="paper-links">
+            <details class="abstract-toggle">
+              <summary>Abstract</summary>
+              <p>Abstract coming soon.</p>
+            </details>
+            <span class="pdf-soon">PDF coming soon</span>
+          </div>
         </article>
       </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Publications</p>
-          <h2>Published Research</h2>
-        </div>
+      <section class="section compact" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
 
-        <article class="paper">
+        <article class="publication">
           <h3>Vertical Structure and Wage Inequality</h3>
           <p>
             With Jiancai Pi and Shumin Yu.
@@ -96,7 +86,7 @@
           </p>
         </article>
 
-        <article class="paper">
+        <article class="publication">
           <h3>Vertical Structure, Managerial Delegation, and the Choice of Capacity</h3>
           <p>
             With Jiancai Pi.
@@ -106,28 +96,10 @@
         </article>
       </section>
 
-      <section id="cv" class="section split">
-        <div>
-          <p class="eyebrow">CV</p>
-          <h2>Curriculum Vitae</h2>
-        </div>
-        <div>
-          <p>
-            My CV includes education, research, publications, presentations,
-            research experience, awards, and technical skills.
-          </p>
-          <a class="button primary" href="main.pdf">Download CV</a>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Shuning Li</h2>
-          <p>Department of Economics, Western University</p>
-          <p><a href="mailto:sli2744@uwo.ca">sli2744@uwo.ca</a></p>
-        </div>
-      </section>
+      <footer class="footer">
+        <span>Shuning Li</span>
+        <span>Labor Economics | Applied Microeconometrics | Family Economics</span>
+      </footer>
     </main>
   </body>
 </html>
