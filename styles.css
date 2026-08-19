@@ -135,7 +135,9 @@ h3 {
 }
 
 .contact-line {
-  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 18px;
 }
 
 .profile-photo {
