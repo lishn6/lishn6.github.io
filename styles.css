@@ -233,6 +233,36 @@ h3 {
   max-width: 760px;
 }
 
+.publication {
+  border-left: 3px solid var(--line);
+  margin-top: 20px;
+  padding-left: 22px;
+}
+
+.publication:first-of-type {
+  margin-top: 0;
+}
+
+.publication p,
+.teaching-lead,
+.teaching-list {
+  color: var(--muted);
+}
+
+.publication p,
+.teaching-lead {
+  margin-bottom: 0;
+}
+
+.teaching-list {
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.teaching-list li + li {
+  margin-top: 6px;
+}
+
 .footer {
   color: var(--muted);
   display: flex;
