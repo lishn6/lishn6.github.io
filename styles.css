@@ -76,8 +76,15 @@ a:hover {
   color: var(--accent);
 }
 
+.intro-grid {
+  align-items: start;
+  display: grid;
+  gap: 42px;
+  grid-template-columns: minmax(0, 1fr) 190px;
+}
+
 .intro-block {
-  max-width: 720px;
+  max-width: 680px;
 }
 
 .affiliation,
@@ -129,6 +136,15 @@ h3 {
 
 .contact-line {
   margin-bottom: 0;
+}
+
+.profile-photo {
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--line);
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+  width: 190px;
 }
 
 .section {
@@ -215,25 +231,6 @@ h3 {
   max-width: 760px;
 }
 
-.publication {
-  border-top: 1px solid var(--line);
-  padding-top: 18px;
-}
-
-.publication + .publication {
-  margin-top: 18px;
-}
-
-.publication:first-of-type {
-  border-top: 0;
-  padding-top: 0;
-}
-
-.publication p {
-  color: var(--muted);
-  margin-bottom: 0;
-}
-
 .footer {
   color: var(--muted);
   display: flex;
@@ -263,6 +260,16 @@ h3 {
   .top-actions {
     flex-wrap: wrap;
     gap: 14px;
+  }
+
+  .intro-grid {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo {
+    max-width: 210px;
+    width: 58%;
   }
 
   h1 {
